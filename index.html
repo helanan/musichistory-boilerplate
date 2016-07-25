@@ -1,13 +1,60 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Music History</title>
-</head>
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Media Player</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="main.css"
+	</head>
 <body>
 
+<aside>
+	
+<form action="index.html" method="post">
+
+<fieldset>
+	
+<legend class="songlength">Song Length:</legend>
+
+<label for="artist">Artist</label>
+<select id="artist" name="artist_name">
+<optgroup label="Artist">
+<option value="framing_hanley">Framing Hanley</option>
+<option value="deftones">Deftones</option>
+<option value="every_time_i_die">Every Time I Die</option>
+<option value="emarosa">Emarosa</option>
+<option value="biffy_clyro">Biffy Clyro</option>
+</optgroup>
+</select>
+
+<label for="album">Album</label>
+<select id="album" name="album">
+<optgroup label="Framing Hanley">
+<option value="one_mas_more">One Mas More</option>
+<option value="the_sum_of_who_we_are">The Sum Of Who We Are</option>
+<option value="a_promise_to_burn">A Promise To Burn</option>
+<optgroup label="Deftones">
+<option value="rails_developer">Rails Developer</option>
+<option value="web_designer">Web Designer</option>
+<option value="wordpress_developer">Wordpress Developer</option>
+<optgroup label="Every Time I Die">
+<optgroup label="Emarosa">
+<optgroup label="Biffy Clyro">
+<option value="ellipsis">Ellipsis</option>
+<option value="similarities">Similarities</option>
+<option value="opposites">Opposites</option>
+
+</optgroup>
+</select>
+
+
+<button type="submit">Filter</button>
+
+</fieldset>
+</form>
+</aside>
 
 </body>
 </html>
